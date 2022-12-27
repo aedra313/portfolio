@@ -1,0 +1,61 @@
+.width {
+    width: 100%;
+    overflow: hidden;
+}
+.marqueeHead {
+    display: flex;
+    max-width: 80%;
+
+    animation: marqueeHEAD 5s linear infinite;
+
+}
+
+.marqueeFoot {
+    display:flex;
+    max-width: 80%;
+    animation: marqueeFOOT 5s linear infinite;
+}
+
+.line {
+    display: flex;
+    max-width: 400%;
+    background-color: #F3FC8A;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+
+}
+.marqueeContent {
+    display: flex;
+    height: 17px;
+    width:100%;
+    overflow: hidden;
+
+
+}
+
+.marqueeText {
+    white-space: nowrap;
+    line-height: 17px;
+    margin:0;
+    padding: 0 74px 0 74px;
+    overflow: hidden;
+
+}
+
+@keyframes marqueeHEAD {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-570px);
+    }
+}
+@keyframes marqueeFOOT {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-525px);
+    }
+}

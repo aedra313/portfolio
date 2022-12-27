@@ -1,0 +1,25 @@
+.headerContent {
+    margin-top: 10px;
+}
+.wrap {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+}
+.title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5F5F5;
+    margin: 0 4px 0 0;
+}
+
+.description {
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #A9A9A9;
+    margin: 0 4px 0 0;
+}

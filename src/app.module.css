@@ -1,9 +1,15 @@
 .app {
     min-height: 100%;
+    width: 375px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    margin: 0 auto 0;
+
 }
 .main {
     flex: 1 1 auto;
+    font-family: 'Space Grotesk', sans-serif !important;
 }
