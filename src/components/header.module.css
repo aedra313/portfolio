@@ -7,12 +7,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 375px;
+    width: 343px;
+    padding: 0 16px 0;
 }
 .title{
     font-size: 16px;
     line-height: 24px;
-    color: #F5F5F5;
+
     margin: 0 4px 0 0;
 }
 

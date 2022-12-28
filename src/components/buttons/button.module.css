@@ -1,0 +1,51 @@
+.block p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.large p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.block{
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.xsmall {
+    width: 137px;
+    height: 64px;
+    border: 1px solid white;
+}
+
+.small {
+    width: 149px;
+    height: 56px;
+    border: 1px solid white;
+}
+
+.medium {
+    width: 137px;
+    height: 64px;
+    border: 1px solid white;
+
+}
+
+.large {
+    width: 343px;
+    height: 56px;
+    border: 1px solid transparent;
+}
+
+.xlarge {
+    width: 432px;
+    height: 64px;
+    border: 1px solid white;
+}

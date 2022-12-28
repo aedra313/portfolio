@@ -1,0 +1,14 @@
+.color {
+    text-decoration: none !important;
+}
+
+.color div{
+    background-color: inherit;
+    border: 1px solid #F5F5F5;
+}
+
+.color div p {
+    color: #F5F5F5;
+    margin-right: 13px;
+
+}

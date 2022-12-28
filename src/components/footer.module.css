@@ -1,0 +1,66 @@
+.wrap {
+    padding: 80px 16px 24px;
+}
+
+.buttons{
+    margin-top: 40px;
+
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.callToAction {
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 56px 0 0;
+    width: 312px;
+}
+
+.contactsItem {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+
+    color: #A9A9A9;
+}
+.contactsLink {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: #F5F5F5;
+
+    margin: 8px 0 0;
+    display: inline-block;
+}
+
+.credentials {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #A9A9A9;
+
+    margin: 56px 0 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.underlined {
+    text-decoration: underline;
+}

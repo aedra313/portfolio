@@ -1,0 +1,11 @@
+.color {
+    text-decoration: none !important;
+}
+
+.color div{
+    background-color: #FC8A8A;
+}
+
+.color div p {
+    color: #0E0E0E;
+}
