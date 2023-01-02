@@ -6,7 +6,7 @@ import CvButton from '../buttons/cvButton';
 const Introduction = () => {
   return (
     <>
-      <p className={s.title}>A tech copywriter who knows what Flutter is</p>
+      <p className={s.title}>A copywriter who knows what Flutter is</p>
       <div className={s.wrap}>
         <div className={s.bio}>
           <p>Hi! I’m Mariia. A copywriter / content writer who’s passionate about
