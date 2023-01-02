@@ -3,7 +3,7 @@ import Marquee from '../misc/marquee';
 import s from './header.module.css';
 import {ReactComponent as Menu} from '../../media/menu.svg';
 
-const HeaderComponent = () => {
+const HeaderComponent = ( {path}) => {
   return (
     <div>
       <Marquee position={'head'} />

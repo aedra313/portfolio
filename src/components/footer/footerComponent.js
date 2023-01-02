@@ -5,7 +5,7 @@ import ContactButton from '../buttons/contactButton';
 import CvButton from '../buttons/cvButton';
 import {ReactComponent as Link} from '../../media/link.svg';
 
-const FooterComponent = () => {
+const FooterComponent = ( {path}) => {
   return (
     <div>
       <Marquee position={'foot'} />
@@ -13,8 +13,8 @@ const FooterComponent = () => {
         <p className={s.callToAction}>Need help? Found a typo?
           Wanna hire me?</p>
         <div className={s.buttons}>
-          <ContactButton />
-          <CvButton />
+          <ContactButton path={path} />
+          <CvButton path={path}/>
         </div>
         <div className={s.contacts}>
           <div>
