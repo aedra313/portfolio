@@ -23,7 +23,7 @@ function App() {
     <div className={s.app}>
       <HeaderComponent path={path} />
       <Routes>
-        <Route index element={<Home />} />
+        <Route index element={<Home path={path} />} />
         <Route path="/cases" element={<Cases />} />
 
       </Routes>

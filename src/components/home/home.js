@@ -4,11 +4,11 @@ import Introduction from './introduction';
 import Cases from '../cases/cases';
 
 
-const Home = () => {
+const Home = ({path}) => {
   return (
     <div className={s.wrap}>
       <Introduction />
-      <Cases />
+      <Cases path={path} />
     </div>
   );
 };
