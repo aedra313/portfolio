@@ -1,0 +1,38 @@
+.title {
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 60px;
+
+    /* or 97% */
+    letter-spacing: -0.04em;
+
+    /* White */
+    color: #F5F5F5;
+
+    margin: 0;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column-reverse;
+
+    margin-top: 24px;
+}
+
+.bio {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-top: 64px;
+}
+
+.bio p {
+    margin: 0;
+}
+
+.bio p:first-child {
+    margin-bottom: 24px;
+}

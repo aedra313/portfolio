@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './footer.module.css';
-import Marquee from './marquee';
-import ContactButton from './buttons/contactButton';
-import CvButton from './buttons/cvButton';
-import {ReactComponent as Link} from '../media/link.svg';
+import Marquee from '../misc/marquee';
+import ContactButton from '../buttons/contactButton';
+import CvButton from '../buttons/cvButton';
+import {ReactComponent as Link} from '../../media/link.svg';
 
 const FooterComponent = () => {
   return (

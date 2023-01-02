@@ -1,7 +1,7 @@
 import React from 'react';
-import Marquee from './marquee';
+import Marquee from '../misc/marquee';
 import s from './header.module.css';
-import {ReactComponent as Menu} from '../media/menu.svg';
+import {ReactComponent as Menu} from '../../media/menu.svg';
 
 const HeaderComponent = () => {
   return (

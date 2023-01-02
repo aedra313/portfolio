@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as MarqueeSvg} from '../media/marquee_svg.svg';
+import {ReactComponent as MarqueeSvg} from '../../media/marquee_svg.svg';
 import s from './marquee.module.css';
 
 
