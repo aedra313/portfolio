@@ -1,5 +1,5 @@
 import React from 'react';
-import CaseCard from '../misc/caseCard';
+import CaseCard from './caseCard';
 import data from './casesData';
 import s from './cases.module.css';
 

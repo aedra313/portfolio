@@ -65,3 +65,18 @@
     margin: 0;
     padding: 0;
 }
+
+.views {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A9A9A9;
+    margin-right: 9px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
