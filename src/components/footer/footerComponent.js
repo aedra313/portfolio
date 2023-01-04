@@ -3,7 +3,7 @@ import s from './footer.module.css';
 import Marquee from '../misc/marquee';
 import ContactButton from '../buttons/contactButton';
 import CvButton from '../buttons/cvButton';
-import {ReactComponent as Link} from '../../media/link.svg';
+import {ReactComponent as Link} from '../../media/linkIcon.svg';
 
 const FooterComponent = ( {path}) => {
   return (
