@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a1ae436f.css",
-    "main.js": "/portfolio/static/js/main.75471535.js",
+    "main.css": "/portfolio/static/css/main.c99792da.css",
+    "main.js": "/portfolio/static/js/main.de6adb5f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cowa.svg": "/portfolio/static/media/cowa.25abcee35ed212f8fc67f897a081cbe0.svg",
+    "static/media/placeholder.jpeg": "/portfolio/static/media/placeholder.214569f3c20765604b38.jpeg",
     "static/media/sci-fi.png": "/portfolio/static/media/sci-fi.2fe837616bd22a277dc9.png",
     "static/media/sw.png": "/portfolio/static/media/sw.fed576d7a1fc807e41e1.png",
     "static/media/kittens&puppies.png": "/portfolio/static/media/kittens&puppies.3bed11ee6f13efdda24e.png",
@@ -10,18 +12,25 @@
     "static/media/disney.png": "/portfolio/static/media/disney.2e3d9555f673ebc49269.png",
     "static/media/2dAnimation.png": "/portfolio/static/media/2dAnimation.c9a601277a565776fb39.png",
     "static/media/nike.png": "/portfolio/static/media/nike.4cf6dd6b50b1cce779ec.png",
+    "static/media/lumis.svg": "/portfolio/static/media/lumis.62c8ca175430bb49a7881053496035c0.svg",
     "static/media/marquee_svg.svg": "/portfolio/static/media/marquee_svg.bf931d2810f9dd59914c73b42c8ee9cd.svg",
     "index.html": "/portfolio/index.html",
     "static/media/info.svg": "/portfolio/static/media/info.c9925f5d172146d3b90cc791879726e7.svg",
     "static/media/linkIcon.svg": "/portfolio/static/media/linkIcon.8c015f587294697a748dd1748ebbd137.svg",
+    "static/media/blablacar.svg": "/portfolio/static/media/blablacar.d95d63299d1beae156d80a2a1e1122a2.svg",
+    "static/media/angular.svg": "/portfolio/static/media/angular.bc937886bbac60c95b76cc2d258bcfcf.svg",
+    "static/media/flutter.svg": "/portfolio/static/media/flutter.09cf403f3fa67d72978a2604eae0a745.svg",
+    "static/media/pwa.svg": "/portfolio/static/media/pwa.fdaaa2932c995dfdbeb9cbd93a8fc975.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.58aef7eebd8cd181ddd2c8f2cff1f4aa.svg",
     "static/media/download.svg": "/portfolio/static/media/download.9359af9fb267aea2c238c6f16c24ca45.svg",
-    "main.a1ae436f.css.map": "/portfolio/static/css/main.a1ae436f.css.map",
-    "main.75471535.js.map": "/portfolio/static/js/main.75471535.js.map",
+    "static/media/ralabs.svg": "/portfolio/static/media/ralabs.12d24a72165df3a5acec83d11446a73e.svg",
+    "static/media/ralabsHealth.svg": "/portfolio/static/media/ralabsHealth.81c6adffb0b87e397850d55ae88f6d49.svg",
+    "main.c99792da.css.map": "/portfolio/static/css/main.c99792da.css.map",
+    "main.de6adb5f.js.map": "/portfolio/static/js/main.de6adb5f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1ae436f.css",
-    "static/js/main.75471535.js"
+    "static/css/main.c99792da.css",
+    "static/js/main.de6adb5f.js"
   ]
 }
