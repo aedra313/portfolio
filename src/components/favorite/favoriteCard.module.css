@@ -8,10 +8,8 @@
     padding: 12px;
     margin-bottom: 16px;
 
-
     display: flex;
     justify-content: space-between;
-
 }
 
 .wide {
@@ -42,11 +40,6 @@
 .link {
     align-self: flex-end;
     display: block;
-    margin-left: auto;
     height: 16px;
     width: 16px;
-}
-
-.linkIcon {
-
 }

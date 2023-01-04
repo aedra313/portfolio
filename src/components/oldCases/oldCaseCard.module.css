@@ -1,0 +1,24 @@
+.imgBlock {
+    padding: 16px;
+    width: 311px;
+    height: 168px;
+
+    background: #292929;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 128px;
+    height: 128px;
+}
+
+.link {
+    align-self: flex-end;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+

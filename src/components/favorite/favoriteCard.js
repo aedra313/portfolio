@@ -11,7 +11,7 @@ const FavoriteCard = ({title, img, link, long}) => {
         <div className={s.main}><img src={img} alt={title} className={s.picture}/>
           <h2 className={s.title}>{title}</h2>
         </div>
-        {link && <a href={link} className={s.link}><LinkIcon className={s.linkIcon} /></a>}
+        {link && <a href={link} className={s.link}><LinkIcon /></a>}
       </div>
     );
 };
