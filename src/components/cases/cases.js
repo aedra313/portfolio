@@ -10,7 +10,7 @@ const Cases = () => {
   toggle ? array = data : array = data.slice(0, 4);
   const content = array.map((dataItem, index) => <CaseCard key={index} title={dataItem.title} description={dataItem.description} img={dataItem.img} tags={dataItem.tags} link={dataItem.link} />);
   return (
-    <div>
+    <div className={s.container}>
       <h2 className={s.title}>My recent works</h2>
       {!toggle && <p className={s.description}><span className={s.yellow}>5+ years of experience</span> turned into this...</p>}
       {content}

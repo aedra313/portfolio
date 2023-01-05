@@ -9,6 +9,7 @@ import {
   Routes, useLocation,
 } from 'react-router-dom';
 import Cases from './components/cases/cases';
+import About from './components/about';
 
 function App() {
   const [path, setPath] = useState('');
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route index element={<Home path={path} />} />
         <Route path="/cases" element={<Cases />} />
+        <Route path="/about" element={<About />} />
 
       </Routes>
 
