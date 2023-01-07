@@ -18,8 +18,6 @@ function App() {
     setPath(location.pathname);
   });
 
-
-  console.log(path);
   return (
     <div className={s.app}>
       <HeaderComponent path={path} />

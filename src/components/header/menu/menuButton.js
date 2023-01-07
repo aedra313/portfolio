@@ -4,7 +4,6 @@ const MenuButton = ({menuOpen, menuOpenProps}) => {
   const HandleClick = () => {
     menuOpenProps(!menuOpen);
   };
-  console.log(menuOpen);
   const styles = {
     container: {
       cursor: 'pointer',

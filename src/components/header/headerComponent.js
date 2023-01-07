@@ -5,13 +5,15 @@ import MenuButton from './menu/menuButton';
 import Menu from './menu/menu';
 import MenuItem from './menu/menuItem';
 import {NavLink} from 'react-router-dom';
+import useIsMobile from '../../hooks/useIsMobile';
 
 const HeaderComponent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuOpenProps = (menuOpen) => {
     setMenuOpen(menuOpen);
   };
-  console.log(menuOpen);
+  const isMobile = useIsMobile();
+  console.log(isMobile);
 
   const menu = ['Home', 'Cases', 'About'];
   const menuItems = menu.map((val, index)=>{
@@ -39,12 +41,10 @@ const HeaderComponent = () => {
           <p className={s.description}>tech copywriter</p>
         </div>
 
-        <MenuButton menuOpenProps={menuOpenProps} menuOpen={menuOpen} />
+        {isMobile ? <MenuButton menuOpenProps={menuOpenProps} menuOpen={menuOpen} /> : menuItems}
 
       </div>
-      <Menu open={menuOpen}>
-        {menuItems}
-      </Menu>
+      {isMobile && <Menu open={menuOpen}>{menuItems}</Menu>}
     </div>
   );
 };
