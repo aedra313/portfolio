@@ -5,14 +5,15 @@ import MenuButton from './menu/menuButton';
 import Menu from './menu/menu';
 import MenuItem from './menu/menuItem';
 import {NavLink} from 'react-router-dom';
-import useIsMobile from '../../hooks/useIsMobile';
+import useMobile from '../../hooks/useMobile';
+import ContactButton from '../buttons/contactButton';
 
 const HeaderComponent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuOpenProps = (menuOpen) => {
     setMenuOpen(menuOpen);
   };
-  const isMobile = useIsMobile();
+  const isMobile = useMobile();
   console.log(isMobile);
 
   const menu = ['Home', 'Cases', 'About'];
@@ -41,7 +42,8 @@ const HeaderComponent = () => {
           <p className={s.description}>tech copywriter</p>
         </div>
 
-        {isMobile ? <MenuButton menuOpenProps={menuOpenProps} menuOpen={menuOpen} /> : menuItems}
+        {isMobile ? <MenuButton menuOpenProps={menuOpenProps} menuOpen={menuOpen} /> : <div className={s.menu}>{menuItems}</div>}
+        {!isMobile && <div className={s.headerButton}> <ContactButton className={s.headerButton} /> </div>}
 
       </div>
       {isMobile && <Menu open={menuOpen}>{menuItems}</Menu>}

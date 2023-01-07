@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 
-const useIsMobile = () => {
-  const [width, setWidth] = React.useState(window.innerWidth);
+const useMobile = () => {
+  const [width, setWidth] = useState(window.innerWidth);
   const [isMobile, setIsMobile] = useState(undefined);
 
   useEffect(() => {
@@ -17,4 +17,4 @@ const useIsMobile = () => {
   return isMobile;
 };
 
-export default useIsMobile;
+export default useMobile;

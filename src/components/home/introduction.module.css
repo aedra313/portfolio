@@ -36,3 +36,34 @@
 .bio p:first-child {
     margin-bottom: 24px;
 }
+
+@media (min-width: 1440px) {
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(12, 90px);
+        grid-template-rows: repeat(3, 56px);
+    }
+
+    .title {
+        font-size: 104px;
+        line-height: 96px;
+        letter-spacing: -0.04em;
+
+        width: 1230px;
+    }
+
+    .bio  {
+        width: 280px;
+
+        grid-column-start: 8;
+        grid-column-end: 10;
+    }
+
+    .button {
+        width: 178px;
+        height: 48px;
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

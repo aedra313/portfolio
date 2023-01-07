@@ -14,7 +14,7 @@ const Introduction = () => {
           <p>Currently freelancing, previously worked as a Creative
                 Copywriter at Zgraya Digital and a Content Writer at Cleveroad.</p>
         </div>
-        <CvButton img={false} />
+        <CvButton className={s.button} img={false} />
       </div>
     </>
   );

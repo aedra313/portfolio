@@ -8,7 +8,6 @@
     justify-content: space-between;
     align-items: center;
     width: 343px;
-    padding: 0 16px 0;
     position: relative;
     z-index: 1 !important;
     background-color: #0E0E0E;
@@ -33,5 +32,53 @@
     content: url("./../../media/activeDecor.svg");
     height: 12px;
     width: 44px;
+}
+
+@media (min-width: 1440px) {
+    .wrap {
+        width: 1344px;
+
+        margin-top: 24px;
+
+        display: grid;
+        grid-template-columns: repeat(12, 90px);
+        grid-template-rows: 56px;
+    }
+
+    .headerContent {
+        grid-column-start:1;
+        grid-column-end: 3;
+        margin:0;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .menu {
+       display: flex ;
+        height: 44px;
+        width: 217px;
+        justify-content: space-between;
+        grid-column-start:8 ;
+        align-self: center;
+        margin:0
+    }
+    .active::after {
+        display: block;
+        content: url("./../../media/activeDecor.svg");
+        height: 12px;
+        margin-bottom: -30px;
+        padding-bottom: -30px;
+        width: 44px;
+    }
+
+    .headerButton{
+        height: 48px;
+        width: 159px;
+        grid-column-end: 12;
+        margin: 0;
+    }
+
 
 }

@@ -1,9 +1,15 @@
 .color {
+    display: block;
     text-decoration: none !important;
+    width: 100%;
+    height: 100%;
+
 }
 
 .color div{
     background-color: #FC8A8A;
+    width: 100%;
+    height: 100%;
 }
 
 .color div p {

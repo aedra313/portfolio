@@ -2,10 +2,12 @@ import React from 'react';
 import CaseCard from './caseCard';
 import data from './casesData';
 import s from './cases.module.css';
+import usePath from '../../hooks/usePath';
 
 
 const Cases = () => {
-  const toggle = window.location.hash.includes('/cases');
+  //  const toggle = window.location.hash.includes('/cases');
+  const toggle = usePath('/cases');
   let array = [];
   toggle ? array = data : array = data.slice(0, 4);
   const container = toggle ? s.container : undefined;

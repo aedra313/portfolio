@@ -5,7 +5,7 @@ const Menu = ({open, children}) => {
     container: {
       position: 'relative',
       top: '-16px',
-      left: '16px',
+      left: '0',
       height: open? '300px': 0,
       width: '343px',
       display: 'flex',
