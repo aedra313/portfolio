@@ -3,20 +3,37 @@ import CaseCard from './caseCard';
 import data from './casesData';
 import s from './cases.module.css';
 import usePath from '../../hooks/usePath';
+import useMobile from '../../hooks/useMobile';
 
 
 const Cases = () => {
   //  const toggle = window.location.hash.includes('/cases');
   const toggle = usePath('/cases');
+  const isMobile = useMobile();
   let array = [];
   toggle ? array = data : array = data.slice(0, 4);
-  const container = toggle ? s.container : undefined;
   const content = array.map((dataItem, index) => <CaseCard key={index} title={dataItem.title} description={dataItem.description} img={dataItem.img} tags={dataItem.tags} link={dataItem.link} />);
+  const rows = content.length/2 +1;
+
+  const style = {
+    wrap: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(2, 660px)',
+      gridTemplateRows: 'repeat(' + rows + ', 528px)',
+      columnGap: '24px',
+      rowGap: '80px',
+      alignItems: 'end',
+      width: '1344px',
+    },
+  };
+
+  const container = toggle ? s.container : null;
+  const grid = !isMobile ? style.wrap : null;
 
   return (
-    <div className={container}>
+    <div className={container} style={grid}>
       <h2 className={s.title}>My recent works</h2>
-      {!toggle && <p className={s.description}><span className={s.yellow}>5+ years of experience</span> turned into this...</p>}
+      <div className={s.description}>{!toggle && <p><span className={s.yellow}>5+ years of experience</span> turned into this...</p>}</div>
       {content}
     </div>
   );

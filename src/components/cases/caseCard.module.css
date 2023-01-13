@@ -66,17 +66,28 @@
     padding: 0;
 }
 
-.views {
-    font-family: 'Inter',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #A9A9A9;
-    margin-right: 9px;
-}
 
-.inline {
-    display: flex;
-    align-items: center;
+
+@media (min-width: 1440px) {
+    .picture {
+        object-fit: cover;
+        width: 100%;
+        height: 360px;
+    }
+
+    .title {
+         margin-top: 24px;
+     }
+
+    .description {
+        height: 40px;
+        width: 400px;
+
+        margin: 16px 0 16px;
+    }
+
+    .tagbox {
+        margin: 0 10px 0 0;
+    }
+
 }

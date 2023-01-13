@@ -42,6 +42,7 @@
         display: grid;
         grid-template-columns: repeat(12, 90px);
         grid-template-rows: repeat(3, 56px);
+        column-gap: 24px;
     }
 
     .title {
@@ -55,8 +56,8 @@
     .bio  {
         width: 280px;
 
-        grid-column-start: 8;
-        grid-column-end: 10;
+        grid-column-start: 7;
+        grid-column-end: 11;
     }
 
     .button {

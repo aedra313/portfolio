@@ -22,3 +22,38 @@
     width: 16px;
 }
 
+.views {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A9A9A9;
+    margin-right: 9px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+.wrap {
+    margin: 56px 0 0 0;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #F5F5F5;
+    margin: 16px 0 8px;
+}
+
+@media (min-width: 1440px) {
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(12, 90px);
+        grid-template-rows: repeat(2, 468px);
+        column-gap: 24px;
+    }
+}

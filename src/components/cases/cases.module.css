@@ -32,3 +32,18 @@
     color: #F3FC8A;
 }
 
+@media (min-width: 1440px) {
+
+    .title {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .description {
+        display: block;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-bottom: 0;
+        background-color: transparent;
+    }
+}
