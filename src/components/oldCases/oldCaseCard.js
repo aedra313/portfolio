@@ -8,7 +8,7 @@ const CaseCard = ({title, img, link, views, hover, id}) => {
   return (
     <div className={w.wrap}>
       <a href={link}>
-        <div className={w.imgBlock}>
+        <div className={`${w.imgBlock} ${w[id]} `}>
           <img src={img} alt={title} className={w.img} />
           <a href={link} className={w.link}><LinkIcon /></a>
         </div>

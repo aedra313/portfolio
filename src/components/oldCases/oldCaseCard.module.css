@@ -50,10 +50,17 @@
 }
 
 @media (min-width: 1440px) {
-    .wrap{
-        display: grid;
-        grid-template-columns: repeat(12, 90px);
-        grid-template-rows: repeat(2, 468px);
-        column-gap: 24px;
+    .imgBlock {
+        padding: 16px;
+        width: 286px;
+        height: 240px;
     }
+
+    .id2 {
+        height: 328px;
+    }
+    .id3 {
+        height: 200px;
+    }
+
 }

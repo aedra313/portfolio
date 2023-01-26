@@ -38,12 +38,7 @@
 }
 
 @media (min-width: 1440px) {
-    .wrap{
-        display: grid;
-        grid-template-columns: repeat(12, 90px);
-        grid-template-rows: repeat(3, 56px);
-        column-gap: 24px;
-    }
+
 
     .title {
         font-size: 104px;

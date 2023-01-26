@@ -10,7 +10,8 @@ const OldCases = () => {
     <div>
       <h2 className={s.title}>In a previous life</h2>
       <p className={s.description}>These days I mostly focus on working with clients on their websites and apps, and sometimes review other writers’ articles.</p>
-      {content}
+
+      <div className={s.wrap}>{content}</div>
     </div>
   );
 };

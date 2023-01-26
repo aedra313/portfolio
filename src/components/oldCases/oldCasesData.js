@@ -7,7 +7,7 @@ import pwa from './../../media/oldCases/pwa.svg';
 const oldData = [
   {
     title: 'Angular vs. React',
-    id: '1',
+    id: 'id1',
     img: angular,
     link: 'https://www.google.com/',
     views: '148k',
@@ -15,21 +15,21 @@ const oldData = [
   },
   {
     title: 'How to make a BlaBlaCar-like app',
-    id: '2',
+    id: 'id2',
     img: blablacar,
     link: 'https://www.google.com/',
     views: '~32k',
   },
   {
     title: 'Why Flutter rocks',
-    id: '3',
+    id: 'id3',
     img: flutter,
     link: 'https://www.google.com/',
     views: '~13k',
   },
   {
     title: 'What\'s a Progressive Web App',
-    id: '4',
+    id: 'id4',
     img: pwa,
     link: 'https://www.google.com/',
     views: '~12k',

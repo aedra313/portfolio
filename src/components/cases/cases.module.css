@@ -46,4 +46,12 @@
         margin-bottom: 0;
         background-color: transparent;
     }
+
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(4, 318px);
+        grid-column-gap: 24px;
+        grid-template-rows: 468px;
+        column-gap: 24px;
+    }
 }
