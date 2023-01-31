@@ -4,7 +4,8 @@ import Button from './button';
 import usePath from '../../hooks/usePath';
 
 const ContactButton = ({className}) => {
-  const text = () => usePath('/', true) ? 'Drop a line' : 'Yes, send me an email';
+  const text = () => usePath('/'||''||'/portfolio' ) ? 'Drop a line' : 'Yes, send me an email';
+  console.log(usePath('/'||''||'/portfolio'));
   return (
 
     <a className={`${s.color} ${className}`} href='mailto:aedra313@gmail.com'>

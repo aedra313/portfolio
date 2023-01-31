@@ -64,3 +64,42 @@
 .underlined {
     text-decoration: underline;
 }
+
+@media (min-width: 1440px) {
+    .contact {
+        display: block;
+        width: 432px;
+        height: 56px;
+        border-radius: 120px;
+    }
+    .cv {
+        display: block;
+        width: 204px;
+        height: 56px;
+
+    }
+    .buttons{
+        display: flex;
+        margin:0px;
+        flex-direction: row;
+        width: 660px;
+    }
+
+    .reachMe {
+        display: flex;
+        width: 100%;
+        height: 56px;
+        justify-content: space-between;
+
+        margin-top: 56px;
+    }
+
+    .contacts{
+        margin: 0;
+        width: 370px;
+    }
+
+    .contacts div:first-child {
+        margin-right: 126px;
+    }
+}
