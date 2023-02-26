@@ -1,33 +1,25 @@
 import React from 'react';
+import s from './menu.module.css';
+import ContactButton from '../../buttons/contactButton';
+import CvButton from '../../buttons/cvButton';
 
 const Menu = ({open, children}) => {
   const styles={
     container: {
-      position: 'relative',
-      top: '-16px',
-      left: '0',
-      height: open? '300px': 0,
-      width: '343px',
-      display: 'flex',
-      flexDirection: 'column',
-      background: '#292929',
-      borderRadius: '16px',
-      opacity: 0.95,
-      color: '#fafafa',
-      transition: 'height 0.3s ease',
-      zIndex: 0,
-    },
-    menuList: {
-      paddingTop: '3rem',
+      height: open? '100vh': 0,
     },
   };
 
   return (
-    <div style={styles.container}>
+    <div className={s.container} style={styles.container}>
       {
           open?
-              <div style={styles.menuList}>
+              <div className={s.menuList}>
                 {children}
+                <div className={s.buttons}>
+                  <ContactButton className={s.contact} />
+                  <CvButton className={s.cv} />
+                </div>
               </div>:null
       }
     </div>

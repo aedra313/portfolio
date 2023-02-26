@@ -1,0 +1,44 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #0E0E0E;
+    border-radius: 16px;
+    opacity: 1;
+    color: #fafafa;
+    transition: height 0.3s ease;
+    overflow-y: hidden;
+    z-index: 0;
+
+}
+
+.menuList {
+    width: 375px;
+    padding-top: 120px;
+    font-weight: 600;
+    font-size: 52px !important;
+    line-height: 48px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.buttons div {
+    width: 288px;
+    height: 56px;
+}
+
+.buttons div p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 500 ;
+    font-size: 18px;
+    line-height: 24px;
+}
+.contact {
+    margin-bottom: 16px;
+}

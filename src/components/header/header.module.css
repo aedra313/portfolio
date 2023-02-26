@@ -27,12 +27,8 @@
     margin: 0 4px 0 0;
 }
 
-.active::after {
-    display:block;
-    content: url("./../../media/activeDecor.svg");
-    height: 12px;
-    width: 44px;
-}
+
+
 
 @media (min-width: 1440px) {
     .wrap {

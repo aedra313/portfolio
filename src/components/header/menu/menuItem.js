@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import s from './menuItem.module.css';
 
 const MenuItem = ({delay, children}) => {
   const [hovered, setHovered] = useState(false);
@@ -12,15 +13,7 @@ const MenuItem = ({delay, children}) => {
       animationDelay: delay,
     },
     menuItem: {
-      display: 'block',
-      fontFamily: `'Space Grotesk', sans-serif`,
-      fontSize: '1.2rem',
-      padding: '0',
-      margin: '0 5%',
-      cursor: 'pointer',
       color: hovered? 'gray':'#F5F5F5',
-      transition: 'color 0.2s ease-in-out',
-      animation: '0.5s slideIn forwards',
       animationDelay: delay,
 
     },
@@ -38,6 +31,7 @@ const MenuItem = ({delay, children}) => {
     <div style={styles.container}>
       <div
         style={styles.menuItem}
+        className={s.menuItem}
         onMouseEnter={HandleHover}
         onMouseLeave={HandleHover}
         /* onClick={this.props.onClick}*/

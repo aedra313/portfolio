@@ -1,0 +1,9 @@
+.menuItem {
+    display: block ;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 0;
+    margin: 24px 0 24px 16px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    animation: 0.5s slideIn forwards;
+}

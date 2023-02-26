@@ -5,9 +5,8 @@
 .buttons{
     margin-top: 40px;
 
-    height: 128px;
+    height: 56px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -22,7 +21,7 @@
 .contacts {
     display: flex;
     justify-content: space-between;
-    margin: 56px 0 0;
+    margin: 40px 0 0;
     width: 312px;
 }
 
@@ -65,6 +64,16 @@
     text-decoration: underline;
 }
 
+.cv {
+    display: block;
+    width: 163.5px;
+    height: 56px;
+}
+.contact {
+    width: 163.5px;
+    height: 56px;
+}
+
 @media (min-width: 1440px) {
     .contact {
         display: block;
@@ -72,12 +81,13 @@
         height: 56px;
         border-radius: 120px;
     }
+
     .cv {
         display: block;
         width: 204px;
         height: 56px;
-
     }
+
     .buttons{
         display: flex;
         margin:0px;

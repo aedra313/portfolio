@@ -8,11 +8,14 @@ import {NavLink} from 'react-router-dom';
 import useMobile from '../../hooks/useMobile';
 import ContactButton from '../buttons/contactButton';
 
-const HeaderComponent = () => {
+const HeaderComponent = ({menuOpenHandler}) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuOpenProps = (menuOpen) => {
     setMenuOpen(menuOpen);
+    menuOpenHandler(menuOpen);
+    console.log(menuOpen);
   };
+
   const isMobile = useMobile();
   console.log(isMobile);
 

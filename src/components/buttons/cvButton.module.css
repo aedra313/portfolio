@@ -3,12 +3,13 @@
 }
 
 .color div{
-    background-color: inherit;
+    background-color: #F5F5F5;;
     border: 1px solid #F5F5F5;
 }
 
 .color div p {
-    color: #F5F5F5;
-    margin-right: 13px;
+    color: #0E0E0E;
+;
+    text-align: center;
 
 }
