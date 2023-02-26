@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5d086063.css",
-    "main.js": "/portfolio/static/js/main.87812c4c.js",
+    "main.css": "/portfolio/static/css/main.91afb51f.css",
+    "main.js": "/portfolio/static/js/main.73dabdd2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cowa.svg": "/portfolio/static/media/cowa.2f1f8bd1f0caad8c39fcb0670633fcd2.svg",
     "static/media/placeholder.jpeg": "/portfolio/static/media/placeholder.214569f3c20765604b38.jpeg",
@@ -25,12 +25,12 @@
     "static/media/download.svg": "/portfolio/static/media/download.381fb51b7af52f1a8baef5c2c2e0a28b.svg",
     "static/media/ralabs.svg": "/portfolio/static/media/ralabs.9b192516ce07159439f8e906e0d38f3f.svg",
     "static/media/ralabsHealth.svg": "/portfolio/static/media/ralabsHealth.e780a5a641237be2a347327e40714331.svg",
-    "main.5d086063.css.map": "/portfolio/static/css/main.5d086063.css.map",
-    "main.87812c4c.js.map": "/portfolio/static/js/main.87812c4c.js.map",
+    "main.91afb51f.css.map": "/portfolio/static/css/main.91afb51f.css.map",
+    "main.73dabdd2.js.map": "/portfolio/static/js/main.73dabdd2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d086063.css",
-    "static/js/main.87812c4c.js"
+    "static/css/main.91afb51f.css",
+    "static/js/main.73dabdd2.js"
   ]
 }
