@@ -1,22 +1,18 @@
-.headerContent {
-    margin-top: 10px;
-}
 .wrap {
     height: 64px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 343px;
     position: relative;
-    z-index: 1 !important;
+    z-index: 1;
     background-color: #0E0E0E;
 }
-.title{
+
+.title {
     font-size: 16px;
     line-height: 24px;
-
-    margin: 0 4px 0 0;
+    margin-right: 4px;
 }
 
 .description {
@@ -24,27 +20,21 @@
     line-height: 16px;
     text-transform: uppercase;
     color: #A9A9A9;
-    margin: 0 4px 0 0;
+    margin-right: 4px;
 }
-
-
-
 
 @media (min-width: 1440px) {
     .wrap {
         width: 1344px;
-
         margin-top: 24px;
-
         display: grid;
         grid-template-columns: repeat(12, 90px);
         grid-template-rows: 56px;
     }
 
     .headerContent {
-        grid-column-start:1;
-        grid-column-end: 3;
-        margin:0;
+        grid-column: 1 / span 2;
+        margin-top: 10px;
     }
 
     .title {
@@ -52,14 +42,14 @@
     }
 
     .menu {
-       display: flex ;
+        display: flex;
         height: 44px;
         width: 217px;
         justify-content: space-between;
-        grid-column-start:8 ;
+        grid-column: 8 / span 2;
         align-self: center;
-        margin:0
     }
+
     .active::after {
         display: block;
         content: url("./../../media/activeDecor.svg");
@@ -69,12 +59,9 @@
         width: 44px;
     }
 
-    .headerButton{
+    .headerButton {
         height: 48px;
         width: 159px;
-        grid-column-end: 12;
-        margin: 0;
+        grid-column: 11 / span 2;
     }
-
-
 }

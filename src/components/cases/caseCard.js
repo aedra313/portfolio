@@ -3,18 +3,23 @@ import s from './caseCard.module.css';
 
 
 const CaseCard = ({title, description, img, tags, link}) => {
-  const tagBlock = tags.map( (tag, index) => <div key={index} className={s.tagbox}><p className={s.tagDescription}>{tag}</p></div>);
   return (
     <div className={s.wrap}>
-      <a href={link}>
-        <img src={img} alt={title} className={s.picture}/>
+      <a href={link} rel="noopener noreferrer">
+        <img src={img} alt={title} className={s.picture} loading="lazy" />
       </a>
-      <a href={link}>
+
+      <a href={link} rel="noopener noreferrer">
         <h2 className={s.title}>{title}</h2>
       </a>
+
       <p className={s.description}>{description}</p>
       <div className={s.tags}>
-        {tagBlock}
+        {tags.map((tag, index) => (
+          <div key={index} className={s.tagContainer}>
+            <p className={s.tagDescription}>{tag}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

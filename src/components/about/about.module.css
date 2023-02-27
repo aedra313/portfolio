@@ -1,72 +1,45 @@
 .header {
     display: flex;
     flex-direction: column;
-
 }
 
 .header h1 {
+    font: 600 60px/56px 'Space Grotesk', sans-serif;
+    letter-spacing: -0.04em;
     width: 343px;
     height: 112px;
-
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 56px;
-
-    letter-spacing: -0.04em;
-
-
 }
 
 .title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 48px;
-
+    font: 600 40px/48px 'Space Grotesk', sans-serif;
     letter-spacing: -0.02em;
-
     color: #F3FC8A;
 }
 
 .position {
-    font-family: 'Space Grotesk',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
+    font: 400 24px/32px 'Space Grotesk', sans-serif;
     letter-spacing: -0.02em;
     margin: 40px 0 24px;
 }
 
 .company {
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font: 600 16px/24px 'Space Grotesk', sans-serif;
     letter-spacing: -0.02em;
     text-decoration-line: underline;
     margin: 24px 0 8px;
 }
 
 .length {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font: 500 16px/24px 'Inter', sans-serif;
     letter-spacing: -0.04em;
-
     color: #A9A9A9;
-
     margin: 8px 0 24px;
 }
 
 .taskList li {
     list-style: none;
+    font: 400 16px/24px 'Inter', sans-serif;
+    margin-bottom: 12px;
 }
 
 .taskList li::before {
@@ -76,23 +49,13 @@
     width: 1em;
     margin-left: -1em;
 }
-.taskList li {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 12px;
-}
-
-
 
 .separator {
-    content: '';
     width: 343px;
     height: 1px;
     background: #292929;
 }
+
 @media (min-width: 1440px) {
     .container {
         padding-left: 162px;
@@ -118,7 +81,6 @@
 
     .position {
         margin: 0 0 24px 0;
-
         font-size: 28px;
         line-height: 36px;
     }

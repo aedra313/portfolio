@@ -3,6 +3,7 @@
     overflow: hidden;
     color: black;
 }
+
 .marqueeHead {
     display: flex;
     max-width: 80%;
@@ -11,9 +12,7 @@
     font-size: 12px;
     line-height: 16px;
 
-
     animation: marqueeHEAD 10s linear infinite;
-
 }
 
 .marqueeFoot {
@@ -43,16 +42,13 @@
     background-color: #F3FC8A;
     padding-top: 12px;
     padding-bottom: 12px;
-
-
 }
+
 .marqueeContent {
     display: flex;
     height: 20px;
     width: 150%;
     overflow: hidden;
-
-
 }
 
 .marqueeText {
@@ -60,7 +56,6 @@
     margin:0;
     padding: 0 73px 0 !important;
     overflow: hidden;
-
 }
 
 @keyframes marqueeHEAD {

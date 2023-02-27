@@ -2,9 +2,8 @@
     padding: 80px 0 24px;
 }
 
-.buttons{
+.buttons {
     margin-top: 40px;
-
     height: 56px;
     display: flex;
     justify-content: space-between;
@@ -31,17 +30,15 @@
     font-size: 16px;
     line-height: 20px;
     margin: 0;
-
     color: #A9A9A9;
 }
+
 .contactsLink {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-
     color: #F5F5F5;
-
     margin: 8px 0 0;
     display: inline-block;
 }
@@ -51,11 +48,8 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
     color: #A9A9A9;
-
     margin: 56px 0 0;
-
     display: flex;
     justify-content: space-between;
 }
@@ -64,33 +58,27 @@
     text-decoration: underline;
 }
 
-.cv {
-    display: block;
-    width: 163.5px;
-    height: 56px;
-}
+.cv,
 .contact {
+    display: block;
     width: 163.5px;
     height: 56px;
 }
 
 @media (min-width: 1440px) {
     .contact {
-        display: block;
         width: 432px;
         height: 56px;
         border-radius: 120px;
     }
 
     .cv {
-        display: block;
         width: 204px;
-        height: 56px;
     }
 
-    .buttons{
+    .buttons {
         display: flex;
-        margin:0px;
+        margin: 0;
         flex-direction: row;
         width: 660px;
     }
@@ -100,11 +88,10 @@
         width: 100%;
         height: 56px;
         justify-content: space-between;
-
         margin-top: 56px;
     }
 
-    .contacts{
+    .contacts {
         margin: 0;
         width: 370px;
     }
@@ -113,3 +100,7 @@
         margin-right: 126px;
     }
 }
+
+
+
+

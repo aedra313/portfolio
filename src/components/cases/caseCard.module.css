@@ -1,5 +1,11 @@
+:root {
+    --color-white: #F5F5F5;
+    --color-yellow: #F3FC8A;
+    --font-inter: 'Inter', sans-serif;
+}
+
 .wrap {
- margin: 56px 0 0 0;
+    margin-top: 56px;
 }
 
 .wrap a {
@@ -16,23 +22,18 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 40px;
-    color: #F5F5F5;
-    margin: 16px 0 8px;
+    color: var(--color-white);
+    margin-top: 16px;
 }
 
 .description {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
-    /* or 143% */
     letter-spacing: -0.2px;
-
-    /* White */
-    color: #F5F5F5;
-
+    color: var(--color-white);
     margin: 8px 0 16px;
 }
 
@@ -42,31 +43,25 @@
     flex-wrap: wrap;
 }
 
-.tagbox {
+.tagContainer {
     padding: 8px;
-    border: 1px solid #F3FC8A;
+    border: 1px solid var(--color-yellow);
     border-radius: 8px;
     margin: 10px 10px 0 0;
-
 }
 
 .tagDescription {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     white-space: nowrap;
-
-    color: #F3FC8A;
-
+    color: var(--color-yellow);
     margin: 0;
     padding: 0;
 }
-
-
 
 @media (min-width: 1440px) {
     .picture {
@@ -75,19 +70,22 @@
         height: 360px;
     }
 
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
     .title {
-         margin-top: 24px;
-     }
+        margin-top: 24px;
+    }
 
     .description {
         height: 40px;
         width: 400px;
-
         margin: 16px 0 16px;
     }
 
-    .tagbox {
+    .tagContainer {
         margin: 0 10px 0 0;
     }
-
 }

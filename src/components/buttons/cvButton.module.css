@@ -2,14 +2,12 @@
     text-decoration: none !important;
 }
 
-.color div{
+.color div {
     background-color: #F5F5F5;;
     border: 1px solid #F5F5F5;
 }
 
 .color div p {
     color: #0E0E0E;
-;
     text-align: center;
-
 }

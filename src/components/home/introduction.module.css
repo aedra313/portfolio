@@ -1,21 +1,15 @@
 .title {
     font-weight: 600;
     font-size: 50px;
-    line-height: 60px;
-
-    /* or 97% */
+    line-height: 1.2;
     letter-spacing: -0.04em;
-
-    /* White */
     color: #F5F5F5;
-
     margin: 0;
 }
 
 .wrap {
     display: flex;
     flex-direction: column-reverse;
-
     margin-top: 24px;
 }
 
@@ -24,46 +18,34 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
-
+    line-height: 1.25;
     margin-top: 64px;
-}
-
-.bio p {
-    margin: 0;
 }
 
 .bio p:first-child {
     margin-bottom: 24px;
 }
+
 .button {
     width: 343px;
     height: 56px;
 }
 
 @media (min-width: 1440px) {
-
-
     .title {
         font-size: 104px;
-        line-height: 96px;
-        letter-spacing: -0.04em;
-
+        line-height: 0.92;
         width: 1230px;
     }
 
     .bio  {
         width: 280px;
-
-        grid-column-start: 7;
-        grid-column-end: 11;
+        grid-column: 1 / span 4;
     }
 
     .button {
         width: 178px;
         height: 48px;
-
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column: 8 / span 2;
     }
 }

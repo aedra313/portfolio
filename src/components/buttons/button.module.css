@@ -10,40 +10,6 @@
     margin: 0;
 }
 
-
-
-.xsmall {
-    width: 100%px;
-    height: 100%px;
-    border: 1px solid white;
-}
-
-.small {
-    width: 149px;
-    height: 56px;
-    border: 1px solid white;
-}
-
-.medium {
-    width: 137px;
-    height: 64px;
-    border: 1px solid white;
-
-}
-
-.large {
-    width: 343px;
-    height: 56px;
-
-}
-
-.xlarge {
-    width: 432px;
-    height: 64px;
-    border: 1px solid white;
-
-}
-
 .block{
      border-radius: 120px;
     width: 100% !important;

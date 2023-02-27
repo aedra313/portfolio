@@ -10,10 +10,11 @@ const Cases = () => {
   //  const toggle = window.location.hash.includes('/cases');
   const toggle = usePath('/cases');
   const isMobile = useMobile();
-  let array = [];
-  toggle ? array = data : array = data.slice(0, 4);
-  const content = array.map((dataItem, index) => <CaseCard key={index} title={dataItem.title} description={dataItem.description} img={dataItem.img} tags={dataItem.tags} link={dataItem.link} />);
-  const rows = content.length/2 +1;
+  const array = toggle ? data : data.slice(0, 4);
+  const content = array.map((dataItem, index) => (
+    <CaseCard key={index} {...dataItem} />
+  ));
+  const rows = Math.ceil(content.length / 2);
 
   const style = {
     wrap: {

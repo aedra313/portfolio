@@ -34,6 +34,11 @@
 
 @media (min-width: 1440px) {
 
+    .container {
+        margin-top: -400px;
+        margin-bottom: 100px;
+    }
+
     .title {
         grid-column-start: 1;
         grid-column-end: 2;

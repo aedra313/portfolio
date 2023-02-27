@@ -22,13 +22,14 @@ const About = () => {
       </ul>
     </div>
   </div>);
-  const content = [];
-  // eslint-disable-next-line guard-for-in
-  for (const i in contentNoSpacing) {
-    content.push(contentNoSpacing[i]);
-    content.push(<div className={s.separator}></div>);
-  }
-  content.pop();
+
+  const contentWithSeparators = contentNoSpacing.flatMap((item, index, arr) => {
+    if (index === arr.length - 1) {
+      return [item];
+    }
+    return [item, <div key={`separator-${index}`} className={s.separator} />];
+  });
+
   return (
     <div className={s.container}>
       <div className={s.header}>
@@ -36,7 +37,7 @@ const About = () => {
         <FollowMe />
       </div>
       <h2 className={s.title}>Career pathway</h2>
-      {content}
+      {contentWithSeparators}
     </div>
   );
 };
