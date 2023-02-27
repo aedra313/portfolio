@@ -9,7 +9,7 @@ import {
   Routes, useLocation,
 } from 'react-router-dom';
 import Cases from './components/cases/cases';
-import About from './components/about';
+import About from './components/about/about';
 
 function App() {
   const [path, setPath] = useState('');

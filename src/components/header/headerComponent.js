@@ -25,7 +25,7 @@ const HeaderComponent = ({menuOpenHandler}) => {
       <MenuItem
         key={index}
         delay={`${index * 0.1}s`}>
-        <NavLink
+        <NavLink onClick={()=>menuOpenProps(false)}
 
           to={val!=='Home'?val.toLowerCase():'/'}
           className={({isActive}) =>

@@ -1,0 +1,156 @@
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header h1 {
+    width: 343px;
+    height: 112px;
+
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 56px;
+
+    letter-spacing: -0.04em;
+
+
+}
+
+.title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+
+    letter-spacing: -0.02em;
+
+    color: #F3FC8A;
+}
+
+.position {
+    font-family: 'Space Grotesk',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin: 40px 0 24px;
+}
+
+.company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    margin: 24px 0 8px;
+}
+
+.length {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+
+    color: #A9A9A9;
+
+    margin: 8px 0 24px;
+}
+
+.taskList li {
+    list-style: none;
+}
+
+.taskList li::before {
+    content: "\20D8";
+    color: #F3FC8A;;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.taskList li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+
+
+.separator {
+    content: '';
+    width: 343px;
+    height: 1px;
+    background: #292929;
+}
+@media (min-width: 1440px) {
+    .container {
+        padding-left: 162px;
+        padding-top: 80px;
+        align-items: center;
+    }
+    .header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header h1 {
+        font-size: 104px;
+        line-height: 96px;
+        width: 794px;
+        margin-right: 118px;
+    }
+
+    .title {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .position {
+        margin: 0 0 24px 0;
+
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .company {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .length {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .job {
+        display: flex;
+        justify-content: space-between;
+        width: 1116px;
+        margin: 80px 0;
+
+    }
+
+    .separator {
+        width: 1116px;
+    }
+
+    .taskList {
+        width: 620px;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0;
+
+        letter-spacing: -0.2px;
+    }
+}

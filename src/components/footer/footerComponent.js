@@ -3,7 +3,7 @@ import s from './footer.module.css';
 import Marquee from '../misc/marquee';
 import ContactButton from '../buttons/contactButton';
 import CvButton from '../buttons/cvButton';
-import {ReactComponent as Link} from '../../media/linkIcon.svg';
+import FollowMe from '../misc/followMe';
 
 const FooterComponent = ( ) => {
   return (
@@ -18,10 +18,7 @@ const FooterComponent = ( ) => {
             <CvButton className={s.cv} />
           </div>
           <div className={s.contacts}>
-            <div>
-              <p className={s.contactsItem}>Follow</p>
-              <a href="https://www.linkedin.com/" className={s.contactsLink}><span>LinkedIn</span> <Link /></a>
-            </div>
+            <FollowMe />
             <div>
               <p className={s.contactsItem}>Call me</p>
               <a href="tel:+17342456402" className={s.contactsLink}>+1 734-245-6402</a>

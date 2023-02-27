@@ -24,11 +24,11 @@
 }
 
 .buttons {
-    margin-top: 40px;
+    margin: 40px 16px;
 }
 
 .buttons div {
-    width: 288px;
+
     height: 56px;
 }
 
@@ -41,4 +41,5 @@
 }
 .contact {
     margin-bottom: 16px;
+    height: 56px !important;
 }
