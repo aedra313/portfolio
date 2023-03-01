@@ -32,20 +32,26 @@
 }
 
 @media (min-width: 1440px) {
+    .wrap {
+        display: grid;
+    }
+
     .title {
         font-size: 104px;
         line-height: 0.92;
         width: 1230px;
     }
 
-    .bio  {
-        width: 280px;
+     .button {
+        width: 178px;
         grid-column: 1 / span 4;
+         margin: 0;
     }
 
-    .button {
-        width: 178px;
+    .bio {
+        width: 280px;
         height: 48px;
         grid-column: 8 / span 2;
+        margin: 0;
     }
 }
