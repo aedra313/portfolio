@@ -1,0 +1,50 @@
+
+
+.title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 56px;
+    display: block;
+    margin: 0;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 40px 0;
+
+}
+
+.img {
+    width: 343px;
+    height: 128px;
+}
+
+.divider {
+    height: 1px;
+    width: 343px;
+    background: #292929;
+    margin: 56px 0;
+}
+@media (min-width: 1440px) {
+    .container {
+        padding: 0 114px;
+    }
+
+    .divider {
+        position: absolute;
+        width: 1116px;
+        left: calc(50% - 1116px/2);
+    }
+
+    .description {
+        align-items: end;
+    }
+
+}

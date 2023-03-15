@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './caseCard.module.css';
+import Tag from '../misc/tag';
 
 
 const CaseCard = ({title, description, img, tags, link}) => {
@@ -14,13 +15,7 @@ const CaseCard = ({title, description, img, tags, link}) => {
       </a>
 
       <p className={s.description}>{description}</p>
-      <div className={s.tags}>
-        {tags.map((tag, index) => (
-          <div key={index} className={s.tagContainer}>
-            <p className={s.tagDescription}>{tag}</p>
-          </div>
-        ))}
-      </div>
+      <Tag tags={tags} />
     </div>
   );
 };

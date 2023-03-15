@@ -1,0 +1,97 @@
+
+
+.quotes {
+    height: 30px;
+    width: 64px;
+    content: url("./../../../../media/cases/quotes.svg");
+}
+
+.comment {
+    margin: 40px 0;
+
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.comment :first-child {
+    margin-bottom: 24px;
+}
+
+.container {
+    background: #292929;
+    border-radius: 16px;
+    width: 311px;
+    min-height: 350px;
+
+    margin: 40px 0 56px;
+    padding: 33px 16px 41px;
+}
+
+.copyrightContainer {
+    min-width: 200px;
+    height: 66px;
+
+    display: flex;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.copyrightContainer p {
+    margin:0 16px 6px;
+    white-space: pre-line;
+}
+
+.position {
+    color: #A9A9A9;
+}
+
+@media (min-width: 1440px) {
+    .wrap {
+        margin: 120px 0;
+    }
+    .container {
+        width: 973px;
+        min-height: 100px;
+        margin-top: 64px;
+
+        display: flex;
+        padding: 48px 63px 48px 80px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .comment {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 155px 0 0;
+
+
+        width: 440px;
+    }
+
+    .comment p {
+        margin: 0;
+    }
+
+    .copyrightContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 144px;
+    }
+    .copyrightContainer p {
+        margin: 0;
+    }
+
+    .copyrightContainer img {
+        width: 64px;
+        height: 64px;
+    }
+
+
+}

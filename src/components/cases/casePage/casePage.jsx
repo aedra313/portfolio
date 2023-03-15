@@ -6,14 +6,20 @@ import Feedback from './feedback/feedback';
 import Project from './project/project';
 import Process from './process/process';
 
-const CasePage = () => {
+const CasePage = ({data}) => {
+  console.log(data);
   return (
-    <div>
-      <Intro />
-      <Feedback />
-      <Project />
-      <Process />
-    </div>
+    <>
+      <Intro data={data.intro}/>
+      <div className={gs.container}>
+        <div className={gs.divider} />
+        <Feedback data={data.feedback}/>
+        <div className={gs.divider} />
+        <Project data={data.aboutProject}/>
+        <div className={gs.divider} />
+        <Process data={data.aboutProcess}/>
+      </div>
+    </>
   );
 };
 

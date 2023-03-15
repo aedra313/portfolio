@@ -10,6 +10,8 @@ import {
 } from 'react-router-dom';
 import Cases from './components/cases/cases';
 import About from './components/about/about';
+import routes from './components/cases/caseRoutes';
+
 
 function App() {
   const [path, setPath] = useState('');
@@ -29,7 +31,7 @@ function App() {
       height: menuOpen && '100vh',
     },
   };
-
+  console.log(routes);
 
   return (
     <div className={s.app} style={styles.container}>
@@ -38,6 +40,7 @@ function App() {
         <Route index element={<Home path={path} />} />
         <Route path="/cases" element={<Cases />} />
         <Route path="/about" element={<About />} />
+        {routes}
 
       </Routes>
 

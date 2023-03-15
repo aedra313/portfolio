@@ -1,0 +1,29 @@
+.img {
+    width: 343px;
+    height: 128px;
+    background-color: #ffffff;
+    border-radius: 8px;
+
+}
+
+@media (min-width: 1440px) {
+    .container{
+        display: grid;
+        grid-template-columns: 546px 546px;
+        grid-template-rows: 168px  400px 400px;
+        column-gap: 24px;
+        row-gap: 80px ;
+        justify-items: start;
+        align-items: start;
+
+        margin-top: 240px;
+        margin-bottom: 120px;
+    }
+    .img {
+        width: 1116px;
+        height: 400px;
+        background-color: #ffffff;
+        border-radius: 16px;
+        grid-column:1/4
+    }
+}

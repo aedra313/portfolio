@@ -19,18 +19,18 @@ const DATA = {
       textLine1: 'Mariia who was in charge is very talented and wow-ed us with the copy - bold, emotional and straight to the point.',
       textLine2: 'The copy we have – GENIOUS.',
       name: 'Yulia Darmorez',
-      position: 'Lead Marketing Manager, \n' +
-          'Ralabs',
+      position: 'Lead Marketing Manager',
+      company: 'Ralabs',
       logo: ralabsLogo,
 
     },
-    project: {
+    aboutProject: {
       textLine1: 'In Ukraine, there are more than 1,000 software dev companies. And only one Ralabs. Because Ralabs isn’t just another “expert mobile professional software app in 2 weeks top development company”.',
       textLine2: 'Ralabs comes with a story. Style. And spirit.',
       img1: ralabsProject1,
       img2: ralabsProject2,
     },
-    process: {
+    aboutProcess: {
       textLine1: 'The task was to capture that spirit, boldness, and atmosphere inside of the client’s team with a new, wholly rethought copy. To make Ralabs stand out among those 999 software dev companies.',
       textLine2: 'And, of course, add a pinch of SEO optimization ✨',
       img1: ralabsProcess1,
@@ -39,4 +39,4 @@ const DATA = {
   },
 };
 
-export default DATA
+export default DATA;

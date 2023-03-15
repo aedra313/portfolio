@@ -7,6 +7,7 @@ import placeholder from './../../media/cases/placeholder.jpeg';
 const data = [
   {
     title: 'Ralabs',
+    path: 'ralabs',
     description: 'Creative copy for a Ukrainian outsourcing company’s website. Half-serious, puns, jokes & Pigeon emoji intended.',
     img: ralabs,
     tags: ['software', 'healthcare'],
@@ -14,6 +15,7 @@ const data = [
   },
   {
     title: 'Ralabs: Healthcare',
+    path: 'ralabs-healthcare',
     description: 'Healthcare software landing page',
     img: ralabsHealth,
     tags: ['software', 'healthcare'],
@@ -21,6 +23,7 @@ const data = [
   },
   {
     title: 'Cowa',
+    path: 'cowa',
     description: 'Website copy for a Norway-based crypto mining company that puts Mother Nature first.',
     img: cowa,
     tags: ['software', 'healthcare'],
@@ -28,6 +31,7 @@ const data = [
   },
   {
     title: 'Lumis',
+    path: 'lumis',
     description: 'Website copy for a team that helps people return domain names and their faith in humanity.',
     img: lumis,
     tags: ['software', 'healthcare'],
@@ -35,6 +39,7 @@ const data = [
   },
   {
     title: 'Nothing here yet :(',
+    path: '404',
     description: 'lorem ipsum dolor sit amet',
     img: placeholder,
     tags: ['lorem', 'ipsum', 'dolor'],
@@ -42,6 +47,7 @@ const data = [
   },
   {
     title: 'Nothing here yet :(',
+    path: '404',
     description: 'This is kinda a placeholder for future articles that are going to appear as soon as possible c:',
     img: placeholder,
     tags: ['test1', 'test two', 'test three words'],
