@@ -11,7 +11,7 @@ const data = [
     description: 'Creative copy for a Ukrainian outsourcing company’s website. Half-serious, puns, jokes & Pigeon emoji intended.',
     img: ralabs,
     tags: ['software', 'healthcare'],
-    link: 'https://www.google.com/',
+    link: '/#/cases/ralabs',
   },
   {
     title: 'Ralabs: Healthcare',

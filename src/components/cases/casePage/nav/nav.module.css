@@ -1,0 +1,48 @@
+.mobileContainer {
+    display: flex;
+    align-items: center;
+}
+
+.mobileText {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 0 12px;
+}
+.desktopContainer {
+    display: none;
+}
+
+@media (min-width: 1440px) {
+    .mobileContainer {
+        display: none;
+    }
+    .desktopContainer {
+        display: flex;
+        margin-top: 40px;
+
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        letter-spacing: -0.2px;
+
+        color: #F5F5F5;
+    }
+
+    .inactive {
+        color: #A9A9A9;
+    }
+
+    .desktopContainer a p {
+        margin: 0;
+    }
+
+    .divider {
+        margin: 0 8px;
+    }
+}

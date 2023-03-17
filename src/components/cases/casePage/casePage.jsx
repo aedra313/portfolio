@@ -5,11 +5,13 @@ import Intro from './intro/intro';
 import Feedback from './feedback/feedback';
 import Project from './project/project';
 import Process from './process/process';
+import Nav from './nav/nav';
 
 const CasePage = ({data}) => {
   console.log(data);
   return (
     <>
+      <Nav data={data.intro}/>
       <Intro data={data.intro}/>
       <div className={gs.container}>
         <div className={gs.divider} />
