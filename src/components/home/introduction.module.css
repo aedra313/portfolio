@@ -33,25 +33,41 @@
 
 @media (min-width: 1440px) {
     .wrap {
+        margin-top: 54px;
         display: grid;
+        grid-template-columns: repeat(12, 90px);
+        grid-gap: 24px;
+        grid-template-rows: 265px;
     }
 
     .title {
         font-size: 104px;
         line-height: 0.92;
         width: 1230px;
+        margin-bottom: 0;
     }
 
      .button {
         width: 178px;
-        grid-column: 1 / span 4;
+         height:56px;
+        grid-column: 1 / span 2;
          margin: 0;
+         grid-row: 1;
     }
 
     .bio {
+        margin-top: -12px;
+        margin-bottom: 300px;
         width: 280px;
-        height: 48px;
-        grid-column: 8 / span 2;
-        margin: 0;
+        height: 265px;
+
+        font-size: 14px;
+        line-height: 20px;
+
+        letter-spacing: -0.2px;
+
+
+        grid-column: 7 / span 2;
+        padding:0;
     }
 }

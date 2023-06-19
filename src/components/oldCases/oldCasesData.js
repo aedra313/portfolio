@@ -11,7 +11,6 @@ const oldData = [
     img: angular,
     link: 'https://www.google.com/',
     views: '148k',
-    hover: 'Made it to Google\'s top. Just checked: still there 2 years later.',
   },
   {
     title: 'How to make a BlaBlaCar-like app',

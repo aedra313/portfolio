@@ -20,7 +20,8 @@
     line-height: 16px;
     text-transform: uppercase;
     color: #A9A9A9;
-    margin-right: 4px;
+    margin-right: 2px;
+    letter-spacing: 0.06em;
 }
 
 @media (min-width: 1440px) {
@@ -29,16 +30,25 @@
         margin-top: 24px;
         display: grid;
         grid-template-columns: repeat(12, 90px);
+        grid-gap: 24px;
         grid-template-rows: 56px;
     }
 
     .headerContent {
         grid-column: 1 / span 2;
-        margin-top: 10px;
     }
 
     .title {
         font-size: 20px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-top: 14px;
+        margin-bottom: 8px;
+
+    }
+
+    .description {
+        margin-top: 8px;
     }
 
     .menu {
@@ -46,7 +56,7 @@
         height: 44px;
         width: 217px;
         justify-content: space-between;
-        grid-column: 8 / span 2;
+        grid-column: 7;
         align-self: center;
     }
 
@@ -60,8 +70,9 @@
     }
 
     .headerButton {
-        height: 48px;
-        width: 159px;
-        grid-column: 11 / span 2;
+        width: 168px;
+        height: 56px;
+        grid-column: 12 ;
+        justify-self: end;
     }
 }

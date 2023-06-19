@@ -6,11 +6,11 @@ import OldCases from '../oldCases/oldCases';
 import Favorite from '../favorite/favorite';
 
 
-const Home = ({path}) => {
+const Home = () => {
   return (
     <div className={s.wrap}>
       <Introduction />
-      <Cases path={path} />
+      <Cases isHome={true} />
       <OldCases />
       <Favorite />
     </div>

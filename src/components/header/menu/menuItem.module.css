@@ -7,3 +7,9 @@
     transition: color 0.2s ease-in-out;
     animation: 0.5s slideIn forwards;
 }
+
+@media (min-width: 1440px) {
+    .menuItem {
+        margin: 0
+    }
+}

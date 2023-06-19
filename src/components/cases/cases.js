@@ -6,7 +6,7 @@ import usePath from '../../hooks/usePath';
 import useMobile from '../../hooks/useMobile';
 
 
-const Cases = () => {
+const Cases = ({isHome}) => {
   //  const toggle = window.location.hash.includes('/cases');
   const toggle = usePath('/cases');
   const isMobile = useMobile();
@@ -20,7 +20,7 @@ const Cases = () => {
     wrap: {
       display: 'grid',
       gridTemplateColumns: 'repeat(2, 660px)',
-      gridTemplateRows: 'repeat(' + rows + ', 528px)',
+      gridTemplateRows: '70px  repeat(' + rows + ', 528px)',
       columnGap: '24px',
       rowGap: '80px',
       alignItems: 'end',
@@ -28,8 +28,8 @@ const Cases = () => {
     },
   };
 
-  const container = toggle ? s.container : null;
-  const grid = !isMobile ? style.wrap : null;
+  const container = isHome && s.container;
+  const grid = !isMobile && style.wrap;
 
   return (
     <div className={container} style={grid}>
