@@ -1,40 +1,43 @@
 .wrap {
-    width: 140px;
-    height: 176px;
+    width: 8.75rem;
+    height: 7.25rem;
 
     background: #292929;
     border-radius: 16px;
 
-    padding: 12px;
-    margin-bottom: 16px;
+    padding: 0.75rem 0.75rem 3rem 0.75rem;
 
     display: flex;
     justify-content: space-between;
 }
 
 .wide {
-    width: 343px;
-    height: 80px;
+    width: 19.9375rem;
+    height: 3rem;
+    margin-bottom: 7.5rem;
 }
 
 .picture {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
 }
 
 .title {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    max-width: 192px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+
 }
 
 .wide .main {
     display: flex;
     justify-content: space-between;
-    width: 296px;
+    width: 19rem;
+}
+.wide .title {
+    margin-left: 1.5rem;
 }
 
 .link {

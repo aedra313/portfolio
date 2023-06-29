@@ -10,18 +10,21 @@
 }
 
 .title {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.0225rem;
     margin-right: 4px;
+    margin-bottom: 0.5rem;
 }
 
 .description {
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 0.625rem;
+    line-height: 1rem;
+    letter-spacing: 0.0375rem;
     text-transform: uppercase;
     color: #A9A9A9;
     margin-right: 2px;
-    letter-spacing: 0.06em;
+    margin-top: 0.5rem;
 }
 
 @media (min-width: 1440px) {
@@ -49,6 +52,8 @@
 
     .description {
         margin-top: 8px;
+        letter-spacing: 0.06em;
+
     }
 
     .menu {

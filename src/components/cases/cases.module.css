@@ -1,11 +1,15 @@
-.container {
+.containerHome {
     margin-top: -100px;
     margin-bottom: 100px;
+}
+.containerCases {
+    margin-top: -9rem;
+    margin-bottom: 5rem;
 }
 
 .title {
     font-weight: 600;
-    font-size: 52px;
+    font-size: 3.25rem;
     line-height: 48px;
     color: #F5F5F5;
     margin: 200px 0 0;
@@ -15,8 +19,8 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     margin: 24px 0 56px;
 }
 
@@ -34,9 +38,22 @@
 
 @media (min-width: 1440px) {
 
-    .container {
+    .containerHome {
         margin-top: 130px;
         margin-bottom: 345px;
+    }
+
+    .containerCases{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .descriptionBlock{
+        display: grid;
+        grid-template-columns: repeat(2, 41.25rem);
+        row-gap: 5rem;
+        column-gap: 1.5rem ;
+        margin-bottom: 5rem;
     }
 
     .title {
@@ -66,7 +83,16 @@
 .wrap {
     justify-self: center;
     height: 660px;
+
+
 }
+
+    .casesWrap{
+        display: grid;
+        grid-template-columns: repeat(2, 41.25rem);
+        row-gap: 5rem;
+        column-gap: 1.5rem ;
+    }
     /*.wrap{
         display: grid;
         grid-template-columns: repeat(4, 318px);

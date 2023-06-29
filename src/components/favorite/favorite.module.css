@@ -1,0 +1,70 @@
+.contentWrap {
+    display: grid;
+    grid-template-columns: repeat(2, 10.25rem);
+    grid-template-rows: repeat(4, 11rem);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.title {
+    font-size: 3.25rem;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: -0.13rem;
+}
+
+.description {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    letter-spacing: -0.025rem;
+}
+
+@media (min-width: 1440px) {
+
+    .container {
+
+    }
+
+    .descriptionBlock{
+        display: grid;
+        grid-template-columns: repeat(2, 41.25rem);
+        margin-bottom: 5rem;
+    }
+
+    .title {
+        font-size: 72px;
+        line-height: 80px;
+        letter-spacing: -0.04em;
+        margin:0;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        align-self: center;
+    }
+
+    .description {
+        display: block;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.75rem;
+        letter-spacing: -0.025rem;
+
+        width: 27rem;
+
+        grid-column-start: 2;
+        grid-column-end: 3;
+        align-self: end;
+        margin-bottom: -9px;
+        background-color: transparent;
+    }
+
+    .contentWrap {
+        display: grid;
+        grid-template-columns: repeat(4, 318px);
+        grid-template-rows: repeat(2, 104px);
+        column-gap: 24px;
+        row-gap: 24px;
+        width: 1344px;
+    }
+}

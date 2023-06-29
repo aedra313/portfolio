@@ -15,3 +15,7 @@
 .color div p {
     color: #0E0E0E;
 }
+
+@media (min-width: 1440px) {
+
+}

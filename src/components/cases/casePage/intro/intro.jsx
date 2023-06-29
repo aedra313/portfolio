@@ -20,7 +20,7 @@ const Intro = ({data}) => {
         </div>
         <div className={s.descriptionSection}>
           <p className={s.description}>{data.description}</p>
-          <Tag tags={data.tags} />
+          <Tag tags={data.tags} cn={s.tag} />
         </div>
       </div>
       <img className={s.img} src={data.img} alt="Ralabs cover"/>

@@ -10,7 +10,7 @@ const Nav = ({data}) => {
     <div>
 
       <div className={s.mobileContainer}>
-        <a href="/#/cases/">
+        <a className={s.mobileContainer} href="/#/cases/">
           <Arrow />
           <p className={s.mobileText}>Back to Cases</p>
         </a>

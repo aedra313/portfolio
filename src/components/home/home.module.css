@@ -1,3 +1,9 @@
 .wrap {
-    padding: 74px 0 157px;
+    padding: 74px 0 0;
+}
+
+@media (min-width: 1440px) {
+    .wrap {
+        padding: 74px 0 10rem;
+    }
 }

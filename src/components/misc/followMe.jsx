@@ -5,9 +5,9 @@ import {ReactComponent as Link} from '../../media/linkIcon.svg';
 
 const FollowMe = () => {
   return (
-    <div>
+    <div className={s.contacts}>
       <p className={s.contactsItem}>Follow me</p>
-      <a href="https://www.linkedin.com/" className={s.contactsLink}><span>LinkedIn</span> <Link /></a>
+      <a href="https://www.linkedin.com/" className={s.contactsLink}><Link /><span>LinkedIn</span> </a>
     </div>
   );
 };

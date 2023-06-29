@@ -4,6 +4,9 @@ import ralabsProject1 from './../../../media/cases/ralabs/ralabsProject1.png';
 import ralabsProject2 from './../../../media/cases/ralabs/ralabsProject2.png';
 import ralabsProcess1 from './../../../media/cases/ralabs/ralabsProcess1.png';
 import ralabsProcess2 from './../../../media/cases/ralabs/ralabsProcess2.png';
+import lumisProject1 from './../../../media/cases/lumis/lumisProject1.png';
+import lumisProcess1 from './../../../media/cases/lumis/lumisProcess1.png';
+import lumisProcess2 from './../../../media/cases/lumis/lumisProcess2.png';
 
 const DATA = {
   ralabs: {
@@ -35,6 +38,36 @@ const DATA = {
       textLine2: 'And, of course, add a pinch of SEO optimization ✨',
       img1: ralabsProcess1,
       img2: ralabsProcess2,
+    },
+  },
+  lumis: {
+    intro: {
+      name: 'Lumis',
+      link: 'https://lumis.com',
+      description: ' ',
+      tags: ['software', 'healthcare'],
+      img: ralabsCover,
+    },
+    feedback: {
+      textLine1: '',
+      textLine2: '',
+      name: '',
+      position: '',
+      company: '',
+      logo: null,
+
+    },
+    aboutProject: {
+      textLine1: 'Ever skipped your domain’s renewal date and lost it to another person? Oh, I have — and it still hurts. For ppl like me, there’s Lumis, a team of domain brokers who go and talk to your beloved domain’s owners on your behalf. And sometimes manage to get those domains back to you. ',
+      textLine2: 'If Superman was real, he’d probably be doing this, too. For humanity.',
+      img1: lumisProject1,
+      img2: null,
+    },
+    aboutProcess: {
+      textLine1: 'The old website was old, strict & too official. The new design was not going to be. ',
+      textLine2: 'So the copy was re-made in favor of a more light-hearted and simplified version, with fewer words but more fun. To explain to new people what the team is about and if they can get them that goddamn google.com domain (apparently, not).',
+      img1: lumisProcess1,
+      img2: lumisProcess2,
     },
   },
 };

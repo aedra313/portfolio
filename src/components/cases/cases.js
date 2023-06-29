@@ -2,40 +2,32 @@ import React from 'react';
 import CaseCard from './caseCard';
 import data from './casesData';
 import s from './cases.module.css';
-import usePath from '../../hooks/usePath';
-import useMobile from '../../hooks/useMobile';
 
 
 const Cases = ({isHome}) => {
-  //  const toggle = window.location.hash.includes('/cases');
-  const toggle = usePath('/cases');
-  const isMobile = useMobile();
-  const array = toggle ? data : data.slice(0, 4);
+  const array = !isHome ? data : data.slice(0, 4);
   const content = array.map((dataItem, index) => (
     <CaseCard key={index} {...dataItem} />
   ));
-  const rows = Math.ceil(content.length / 2);
 
-  const style = {
-    wrap: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(2, 660px)',
-      gridTemplateRows: '70px  repeat(' + rows + ', 528px)',
-      columnGap: '24px',
-      rowGap: '80px',
-      alignItems: 'end',
-      width: '1344px',
-    },
-  };
 
-  const container = isHome && s.container;
-  const grid = !isMobile && style.wrap;
-
+  const container = isHome ? s.containerHome: s.containerCases;
+  console.log(isHome);
   return (
-    <div className={container} style={grid}>
-      <h2 className={s.title}>My recent works</h2>
-      <div className={s.description}>{!toggle && <p><span className={s.yellow}>5+ years of experience</span> turned into this...</p>}</div>
-      {content}
+    <div className={container} >
+      <div className={s.descriptionBlock}>
+        <h2 className={s.title}>My recent works</h2>
+        <div className={s.description}>
+          {
+            isHome &&
+                <p>
+                  <span className={s.yellow}>5+ years of experience</span>
+                    turned into this...
+                </p>
+          }
+        </div>
+
+      </div>           <div className={s.casesWrap}>{content}</div>
     </div>
   );
 };

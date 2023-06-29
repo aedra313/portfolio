@@ -1,15 +1,20 @@
 .mobileContainer {
     display: flex;
+    height: 1.5rem;
+    line-height: 1.5rem;
     align-items: center;
+    margin-top: 1.29rem;
 }
 
 .mobileText {
     font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
     margin: 0 0 0 12px;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.0225rem;
 }
 .desktopContainer {
     display: none;
@@ -21,7 +26,7 @@
     }
     .desktopContainer {
         display: flex;
-        margin-top: 40px;
+        margin-top: 34px;
 
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -29,7 +34,7 @@
         font-size: 14px;
         line-height: 20px;
 
-        letter-spacing: -0.2px;
+        letter-spacing: -0.0125rem;
 
         color: #F5F5F5;
     }

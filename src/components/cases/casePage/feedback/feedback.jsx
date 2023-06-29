@@ -1,11 +1,10 @@
 import React from 'react';
-import gs from './../casePage.module.css';
 import s from './feedback.module.css';
 
 const Feedback = ({data}) => {
   return (
     <div className={s.wrap}>
-      <h2 className={gs.title}>Client’s feedback </h2>
+      <h2 className={s.title}>Client’s feedback </h2>
       <div className={s.container}>
         <div className={s.quotes}></div>
         <div className={s.comment}>
