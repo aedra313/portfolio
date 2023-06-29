@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a5b27f47.css",
-    "main.js": "/portfolio/static/js/main.3cb49ca3.js",
+    "main.css": "/portfolio/static/css/main.438e3809.css",
+    "main.js": "/portfolio/static/js/main.1987048f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cowa.svg": "/portfolio/static/media/cowa.f55ab9fd5b99de70f1b07698b4b36753.svg",
     "static/media/ralabs.svg": "/portfolio/static/media/ralabs.2659334aaa798f619bdb0bbf72639fc8.svg",
@@ -9,6 +9,9 @@
     "static/media/ralabsProject1.png": "/portfolio/static/media/ralabsProject1.9454a666a6187fd8bb5e.png",
     "static/media/ralabsCover.png": "/portfolio/static/media/ralabsCover.35562bfd5c8be8622739.png",
     "static/media/lumis.svg": "/portfolio/static/media/lumis.35653ba447831114b31be4102caea086.svg",
+    "static/media/lumisProject1.png": "/portfolio/static/media/lumisProject1.85b5e4e5df984d30a9b3.png",
+    "static/media/lumisProcess1.png": "/portfolio/static/media/lumisProcess1.d345a08b807f1dd7a1b3.png",
+    "static/media/lumisProcess2.png": "/portfolio/static/media/lumisProcess2.46b8f5f2a2d685cb2b83.png",
     "static/media/ralabsProject2.png": "/portfolio/static/media/ralabsProject2.aa5547ef8687635b35be.png",
     "static/media/placeholder.jpeg": "/portfolio/static/media/placeholder.214569f3c20765604b38.jpeg",
     "static/media/ralabsProcess2.png": "/portfolio/static/media/ralabsProcess2.aaf5b282aa11d85e7707.png",
@@ -25,19 +28,19 @@
     "index.html": "/portfolio/index.html",
     "static/media/activeDecor.svg": "/portfolio/static/media/activeDecor.32d15baa14e3cf3c976a.svg",
     "static/media/info.svg": "/portfolio/static/media/info.c9925f5d172146d3b90cc791879726e7.svg",
-    "static/media/linkIcon.svg": "/portfolio/static/media/linkIcon.8c015f587294697a748dd1748ebbd137.svg",
+    "static/media/linkIcon.svg": "/portfolio/static/media/linkIcon.c668a2faae02ee6c88f10ebd241728cd.svg",
     "static/media/blablacar.svg": "/portfolio/static/media/blablacar.d95d63299d1beae156d80a2a1e1122a2.svg",
     "static/media/angular.svg": "/portfolio/static/media/angular.bc937886bbac60c95b76cc2d258bcfcf.svg",
     "static/media/flutter.svg": "/portfolio/static/media/flutter.09cf403f3fa67d72978a2604eae0a745.svg",
     "static/media/quotes.svg": "/portfolio/static/media/quotes.8e8bd40f2d564ba3f03a.svg",
     "static/media/pwa.svg": "/portfolio/static/media/pwa.fdaaa2932c995dfdbeb9cbd93a8fc975.svg",
     "static/media/download.svg": "/portfolio/static/media/download.9359af9fb267aea2c238c6f16c24ca45.svg",
-    "main.a5b27f47.css.map": "/portfolio/static/css/main.a5b27f47.css.map",
-    "main.3cb49ca3.js.map": "/portfolio/static/js/main.3cb49ca3.js.map",
+    "main.438e3809.css.map": "/portfolio/static/css/main.438e3809.css.map",
+    "main.1987048f.js.map": "/portfolio/static/js/main.1987048f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5b27f47.css",
-    "static/js/main.3cb49ca3.js"
+    "static/css/main.438e3809.css",
+    "static/js/main.1987048f.js"
   ]
 }
