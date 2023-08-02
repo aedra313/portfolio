@@ -1,7 +1,7 @@
 import React from 'react';
 import w from './oldCaseCard.module.css';
 import {ReactComponent as Info} from './../../media/info.svg';
-import {ReactComponent as LinkIcon} from './../../media/linkIcon.svg';
+import LinkIcon from '../../media/linkIcon';
 
 
 const CaseCard = ({title, img, link, views, hover, id}) => {
@@ -10,7 +10,7 @@ const CaseCard = ({title, img, link, views, hover, id}) => {
       <a href={link}>
         <div className={`${w.imgBlock} ${w[id]} `}>
           <img src={img} alt={title} className={w.img} />
-          <a href={link} className={w.link}><LinkIcon /></a>
+          <a href={link} className={w.link}><LinkIcon cn={w.linkIcon} /></a>
         </div>
       </a>
       <a href={link}>

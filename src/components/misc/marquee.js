@@ -25,6 +25,18 @@ const Marquee = ({position}) => {
           <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[0]}</p></div>
           <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[1]}</p></div>
         </div>
+        <div className={s.line}>
+          <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[0]}</p></div>
+          <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[1]}</p></div>
+        </div>
+        <div className={s.line}>
+          <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[0]}</p></div>
+          <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[1]}</p></div>
+        </div>
+        <div className={s.line}>
+          <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[0]}</p></div>
+          <div className={s.marqueeContent}><MarqueeSvg /> <p className={s.marqueeText}>{position==='head' ? HEAD : FOOT[1]}</p></div>
+        </div>
 
 
       </div>

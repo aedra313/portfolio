@@ -11,7 +11,7 @@ const data = [
     description: 'Creative copy for a Ukrainian outsourcing company’s website. Half-serious, puns, jokes & Pigeon emoji intended.',
     img: ralabs,
     tags: ['software', 'healthcare'],
-    link: '/#/cases/ralabs',
+    link: 'https://aedra313.github.io/portfolio/#/ralabs',
   },
   {
     title: 'Ralabs: Healthcare',
@@ -19,7 +19,7 @@ const data = [
     description: 'Healthcare software landing page',
     img: ralabsHealth,
     tags: ['software', 'healthcare'],
-    link: 'https://www.bing.com/',
+    link: 'https://ralabs.org/healthcare/',
   },
   {
     title: 'Cowa',
@@ -27,7 +27,7 @@ const data = [
     description: 'Website copy for a Norway-based crypto mining company that puts Mother Nature first.',
     img: cowa,
     tags: ['software', 'healthcare'],
-    link: 'https://www.yahoo.com/',
+    link: 'https://cowa.ai/',
   },
   {
     title: 'Lumis',
@@ -35,7 +35,7 @@ const data = [
     description: 'Website copy for a team that helps people return domain names and their faith in humanity.',
     img: lumis,
     tags: ['software', 'healthcare'],
-    link: 'https://meta.ua/uk/',
+    link: 'https://lumis.com/',
   },
   {
     title: 'Nothing here yet :(',

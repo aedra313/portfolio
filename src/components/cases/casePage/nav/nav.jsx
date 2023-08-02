@@ -17,11 +17,11 @@ const Nav = ({data}) => {
       </div>
 
       <div className={s.desktopContainer}>
-        <a href="/#/"> <p>Home</p></a>
+        <a href="https://aedra313.github.io/portfolio/#/"> <p>Home</p></a>
         <p className={`${s.inactive} ${s.divider}`}>|</p>
-        <a href="/#/cases"> <p>Cases</p></a>
+        <a href="https://aedra313.github.io/portfolio/#/cases"> <p>Cases</p></a>
         <p className={`${s.inactive} ${s.divider}`}>|</p>
-        <a href="#"> <p className={s.inactive}>{data.name}</p></a>
+        <a > <p className={s.inactive}>{data.name}</p></a>
       </div>
 
     </div>

@@ -21,13 +21,20 @@ const Cases = ({isHome}) => {
           {
             isHome &&
                 <p>
-                  <span className={s.yellow}>5+ years of experience</span>
+                  <span className={s.yellow}>5+ years of experience </span>
                     turned into this...
                 </p>
           }
         </div>
 
-      </div>           <div className={s.casesWrap}>{content}</div>
+      </div>
+      <div className={s.casesWrap}>{content}</div>
+      {/* {
+        isHome &&
+          <a href={'https://aedra313.github.io/portfolio/#/cases'} className={s.gotoCases}>
+            <p >=&gt; See my other cases =&gt; ...</p>
+          </a>
+      }*/}
     </div>
   );
 };

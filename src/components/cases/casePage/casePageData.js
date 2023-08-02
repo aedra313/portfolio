@@ -4,6 +4,7 @@ import ralabsProject1 from './../../../media/cases/ralabs/ralabsProject1.png';
 import ralabsProject2 from './../../../media/cases/ralabs/ralabsProject2.png';
 import ralabsProcess1 from './../../../media/cases/ralabs/ralabsProcess1.png';
 import ralabsProcess2 from './../../../media/cases/ralabs/ralabsProcess2.png';
+import lumisCover from './../../../media/cases/lumis/lumisCover.png';
 import lumisProject1 from './../../../media/cases/lumis/lumisProject1.png';
 import lumisProcess1 from './../../../media/cases/lumis/lumisProcess1.png';
 import lumisProcess2 from './../../../media/cases/lumis/lumisProcess2.png';
@@ -46,7 +47,7 @@ const DATA = {
       link: 'https://lumis.com',
       description: ' ',
       tags: ['software', 'healthcare'],
-      img: ralabsCover,
+      img: lumisCover,
     },
     feedback: {
       textLine1: '',

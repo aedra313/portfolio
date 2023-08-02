@@ -1,7 +1,8 @@
 .width {
-    width: 100%;
+    width: 200%;
     overflow: hidden;
     color: black;
+    margin-left: -50%;
 }
 
 .marqueeHead {

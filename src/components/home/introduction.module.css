@@ -1,25 +1,27 @@
 .title {
+    font-size: 3.4rem;
+    font-family: 'Space-Grotesk', sans-serif;
+    font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 1.2;
-    letter-spacing: -0.04em;
+    line-height: 3.5rem;
+    letter-spacing: -0.15rem;
     color: #F5F5F5;
-    margin: 0;
+    margin: 0 0 2.5rem;
 }
 
 .wrap {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 24px;
+    margin-top: 0;
 }
 
 .bio {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    margin-top: 64px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 2.6rem;
 }
 
 .bio p:first-child {
@@ -41,8 +43,13 @@
     }
 
     .title {
-        font-size: 104px;
-        line-height: 0.92;
+        font-size: 6.5rem;
+
+        font-style: normal;
+        font-weight: 600;
+        line-height: 6rem;
+        letter-spacing: -0.26rem;
+
         width: 1230px;
         margin-bottom: 0;
     }

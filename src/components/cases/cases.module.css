@@ -10,7 +10,8 @@
 .title {
     font-weight: 600;
     font-size: 3.25rem;
-    line-height: 48px;
+    line-height: 3rem;
+    letter-spacing: -0.13rem;
     color: #F5F5F5;
     margin: 200px 0 0;
 }
@@ -34,6 +35,19 @@
 
 .yellow {
     color: #F3FC8A;
+}
+
+.gotoCases{
+    display: block;
+    margin-top: 1.8rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.04em;
+}
+
+.gotoCases :hover {
+    color: #F2FB89;
 }
 
 @media (min-width: 1440px) {
@@ -108,5 +122,12 @@
         column-gap: 24px;
         row-gap: 24px;
         width: 1344px;
+    }
+
+    .gotoCases {
+        margin-top: 3rem;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
     }
 }

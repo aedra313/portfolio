@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as Link} from './../../../../media/linkIcon.svg';
+import {ReactComponent as Link} from '../../../../media/QQQQlinkIcon.svg';
 import Tag from '../../../misc/tag';
 // import gs from './../casePage.module.css';
 import s from './intro.module.css';

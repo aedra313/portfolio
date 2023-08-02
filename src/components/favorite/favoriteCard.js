@@ -1,12 +1,13 @@
 import React from 'react';
-import {ReactComponent as LinkIcon} from './../../media/linkIcon.svg';
 import s from './favoriteCard.module.css';
+import LinkIcon from '../../media/linkIcon';
 
 
 function FavoriteCard({title, img, link, long}) {
   const wrapClassName = `${s.wrap} ${long ? s.wide : ''}`;
 
   return (
+
     <div className={wrapClassName}>
       <div className={s.main}>
         <img src={img} alt={title} className={s.picture} />
@@ -14,7 +15,7 @@ function FavoriteCard({title, img, link, long}) {
       </div>
       {link && (
         <a href={link} className={s.link}>
-          <LinkIcon />
+          <LinkIcon cn={s.linkIcon} />
         </a>
       )}
     </div>

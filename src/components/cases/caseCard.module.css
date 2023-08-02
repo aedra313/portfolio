@@ -20,21 +20,22 @@
 
 .title {
     font-weight: 500;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     color: var(--color-white);
-    margin-top: 16px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
 }
 
 .description {
     font-family: var(--font-inter);
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: -0.2px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.0125rem;
     color: var(--color-white);
-    margin: 8px 0 16px;
+    margin:  0.5rem 0  0.4rem 0;
 }
 
 @media (min-width: 1440px) {
